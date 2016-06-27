@@ -1,0 +1,137 @@
+html {
+    color: #333;
+}
+
+.center-of-page {
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    text-align: center;
+}
+
+#name {
+    font-size: 115px;
+    font-weight: bolder;
+}
+
+#info {
+    position: relative;
+    top: -35px;
+    font-size: 25px;
+    font-weight: normal;
+}
+
+.bar-wrapper {
+    height: 300px;
+    position: relative;
+}
+.bar {
+    position: relative;
+    bottom: 0;
+    width: 5px;
+    display: inline-block;
+    border: 1px solid red;
+    height: 5px;
+    border-bottom: 3px solid #fff;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.music-box {
+    display: inline;
+    width: 250px;
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-right: 20px;
+    margin-bottom: 35px;
+    text-align: right;
+}
+
+.info-box {
+    text-align: left;
+    width: 200px;
+    height: 25px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    display: inline-block;
+    position: relative;
+    white-space:nowrap;
+    left: 0px;
+
+}
+
+.info-box span {
+    margin-left: 10px;
+    overflow: hidden;
+}
+
+.artwork-box {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+}
+
+.artwork-box img {
+    width: 50px;
+    height: 50px;
+}
+
+.controls-box {
+    width: 200px;
+    height: 25px;
+    text-align: center;
+}
+
+#info span {
+    margin-right: 25px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#info a {
+    color: #333;
+    text-decoration: none;
+}
+
+input[type=range] {
+    margin-top: 10px;
+}
+
+input[type='range'] {
+    width: 210px;
+    height: 30px;
+    overflow: hidden;
+    cursor: pointer;
+}
+input[type='range'],
+input[type='range']::-webkit-slider-runnable-track,
+input[type='range']::-webkit-slider-thumb {
+    -webkit-appearance: none;
+}
+input[type='range']::-webkit-slider-runnable-track {
+    width: 200px;
+    height: 5px;
+    background: #333;
+}
+input[type='range']::-webkit-slider-thumb {
+    position: relative;
+    height: 18px;
+    width: 18px;
+    margin-top: -7px;
+    background: #333;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+input[type='range']::-webkit-slider-thumb::before {
+    position: absolute;
+    content: '';
+    background: #333;
+}
