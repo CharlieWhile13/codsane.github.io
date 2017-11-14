@@ -7,12 +7,12 @@ body {
     cursor: default;
 }
 
-a {
+a, span {
     color: #fff;
     text-decoration: none;
 }
 
-a:hover {
+a:hover, span:hover {
     text-shadow: 0 0 5px #fff;
 }
 
